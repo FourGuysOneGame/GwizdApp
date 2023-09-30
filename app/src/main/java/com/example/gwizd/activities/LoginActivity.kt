@@ -1,5 +1,4 @@
-package com.example.gwizd
-import android.content.Intent
+package com.example.gwizd.activities
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
