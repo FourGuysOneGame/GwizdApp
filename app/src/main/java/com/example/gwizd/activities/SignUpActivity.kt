@@ -5,17 +5,17 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.ComponentActivity
-import com.example.gwizd.databinding.SignupActivityMainBinding
+import com.example.gwizd.databinding.SignupActivityBinding
 
 class SignUpActivity : ComponentActivity() {
 
-    private lateinit var binding: SignupActivityMainBinding
+    private lateinit var binding: SignupActivityBinding
     private lateinit var username: EditText
     private lateinit var email: EditText
     private lateinit var password: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = SignupActivityMainBinding.inflate(layoutInflater)
+        binding = SignupActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.signupButton.setOnClickListener {

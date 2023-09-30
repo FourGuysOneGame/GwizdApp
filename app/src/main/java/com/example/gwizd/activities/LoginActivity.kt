@@ -4,17 +4,17 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.ComponentActivity
-import com.example.gwizd.databinding.LoginActivityMainBinding
+import com.example.gwizd.databinding.LoginActivityBinding
 
 class LoginActivity : ComponentActivity() {
 
-    private lateinit var binding: LoginActivityMainBinding
+    private lateinit var binding: LoginActivityBinding
     private lateinit var username: EditText
     private lateinit var password: EditText
     private lateinit var loginButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = LoginActivityMainBinding.inflate(layoutInflater)
+        binding = LoginActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.loginButton.setOnClickListener {
