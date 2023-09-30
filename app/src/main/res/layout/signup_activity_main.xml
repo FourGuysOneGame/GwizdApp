@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Log in"
+                android:text="Sign up"
                 android:id="@+id/loginText"
                 android:textSize="36sp"
                 android:textAlignment="center"
@@ -51,6 +51,19 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:id="@+id/email"
+                android:background="@drawable/login_input_shape"
+                android:layout_marginTop="20dp"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:hint="Email"
+                android:drawableStart="@drawable/baseline_mail_24"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:id="@+id/password"
                 android:background="@drawable/login_input_shape"
                 android:layout_marginTop="20dp"
@@ -61,10 +74,23 @@
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/repeatpassword"
+                android:background="@drawable/login_input_shape"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:hint="Confirm Password"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="Log in"
+                android:text="Sign up"
                 android:textAllCaps = "false"
                 android:id="@+id/loginButton"
                 android:textSize="18sp"
@@ -77,7 +103,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/login_input_shape"
-                android:text="Log in with Google"
+                android:text="Sign up with Google"
                 android:textSize="18sp"
                 android:textAllCaps = "false"/>
 
