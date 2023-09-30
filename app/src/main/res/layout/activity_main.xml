@@ -47,7 +47,7 @@
                 android:background="@drawable/login_input_shape"/>
 
             <Button
-                android:id="@+id/loginviaGoogleButton"
+                android:id="@+id/signupButton"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
